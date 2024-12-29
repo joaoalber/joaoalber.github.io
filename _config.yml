@@ -29,7 +29,6 @@ github_username: joaoalber
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jemoji
 
 # Exclude from processing.

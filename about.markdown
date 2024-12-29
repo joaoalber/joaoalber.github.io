@@ -4,15 +4,27 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I've been working as a software engineer for about 5 years, focusing mainly on Ruby/Rails development. Currently working for a US company, I’ve helped build and maintain backend systems following clean and well-tested code principles.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+During my career, I’ve worked across various business models: **B2B**, **B2C**, and **B2B2C** in startups, fintech, SaaS, and PaaS environments. I’ve also had the opportunity to mentor less experienced engineers, helping newcomers advance in their careers.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+If you have any questions, feel free to reach out. Let’s connect and drive innovation together! 🚀
 
+&nbsp;
 
-[jekyll-organization]: https://github.com/jekyll
+---
+
+&nbsp;
+
+## Skills
+
+- **APIs Integration**: JSON, REST, GraphQL, SOA, gRPC  
+- **Languages & Frameworks**: Ruby/Rails, JS/HTML/CSS, Tailwind  
+- **Databases**: SQL, MySQL, PostgreSQL, Redis  
+- **Cloud & DevOps**: GCP, AWS, Docker, Linux/Bash  
+- **Messaging**: Message Processing, Async Jobs, Pub/Sub  
+- **Monitoring & Error Tracking**: Datadog, New Relic, Sentry, Honeycomb  
+- **Development Practices**: CI/CD, Source Control (Git)  
+- **Search Engines**: Algolia, Elasticsearch  
+- **Security**: JWT, Authorization/Authentication, OAuth  
+- **Architecture**: Clean Architecture, DDD, Design Patterns  
