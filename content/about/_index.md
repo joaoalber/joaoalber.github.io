@@ -21,11 +21,7 @@ Throughout my career, I’ve gained experience across diverse business models, i
 
 Additionally, I’ve had the privilege of mentoring less experienced engineers, helping them grow and understand tech concepts such as *OOP, Linux, Git/Github, HTTP, HTML/CSS*, etc...
 
-<hr style="height: 1px;
-    color: #ed1d61;
-    background: #ed1d61;
-    font-size: 15px;
-    border: 0;">
+<hr style="height: 1px; font-size: 10px; border: 0; background-color: black; opacity: 0.05;">
 
 <font size="5">Skills</font>
 
@@ -40,11 +36,7 @@ Additionally, I’ve had the privilege of mentoring less experienced engineers, 
 *Security*: JWT, Authorization/Authentication, OAuth  
 *Software Design*: Clean Architecture, DDD, Design Patterns
 
-<hr style="height: 1px;
-    color: #ed1d61;
-    background: #ed1d61;
-    font-size: 15px;
-    border: 0;">
+<hr style="height: 1px; font-size: 10px; border: 0; background-color: black; opacity: 0.05;">
 
 <font size="5">Testimonials</font>
 
