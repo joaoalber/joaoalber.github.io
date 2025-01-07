@@ -55,8 +55,8 @@ recent_max = 5
 recent_more_text = "more »"
 
 sections = [
-    { name = "posts", path = "/posts", is_external = true },
-    { name = "about", path = "/about", is_external = true },
+    { name = "posts", path = "/posts", is_external = false },
+    { name = "about", path = "/about", is_external = false },
     { name = "cv", path = "https://ucarecdn.com/ec653b3c-a00f-4818-aab2-3579711234d2/resumejoao1.png", is_external = true },
     # { name = "github", path = "https://github.com/joaoalber", is_external = true },
 ]
@@ -86,7 +86,7 @@ outdate_alert_days = 120              # How many days will a post be outdated by
 outdate_alert_text_before = "This article was last updated "
 outdate_alert_text_after = " days ago and may be out of date."
 
-nav_separator = ""
+nav_separator = "::"
 nav_wrapper_left = "{"
 nav_wrapper_right = "} ;"
 nav_wrapper_separator = ","
