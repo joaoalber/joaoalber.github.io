@@ -1,0 +1,49 @@
+[[project]]
+name = "To-do List App - AI integrated"
+desc = "An application designed to manage daily tasks. It features OpenAI integration to automatically generate task titles from descriptions and uses Turbo Rails for a smooth, reload-free experience"
+tags = []
+img = "https://ucarecdn.com/1252c9a3-7344-4aa4-a16f-e3df65c29065/todolistapp.png"
+links = [
+  { name = "github", url = "https://github.com/joaoalber/to-do-list-app" },
+  { name = "preview", url = "https://ucarecdn.com/1252c9a3-7344-4aa4-a16f-e3df65c29065/todolistapp.png" },
+]
+
+[[project]]
+name = "Product Inventory GraphQL API"
+desc = "An application designed to manage product inventories through a GraphQL interface. It enables users to perform CRUD operations on products, track quantity changes, and apply bulk updates or filters based on product attributes"
+tags = []
+img = "https://ucarecdn.com/d15723a3-4c09-40c7-b1e4-1e5192abde45/graphqlapiapp.png"
+links = [
+  { name = "github", url = "https://github.com/joaoalber/product-inventory-graphql-api" },
+  { name = "preview", url = "https://ucarecdn.com/d15723a3-4c09-40c7-b1e4-1e5192abde45/graphqlapiapp.png" },
+]
+
+
+[[project]]
+name = "Library Management System"
+desc = "A system designer for librarians and members to manage library resources efficiently. It provides a user-friendly interface and RESTful APIs for managing and borrowing books + administrative tasks"
+tags = []
+img = "https://ucarecdn.com/868792f4-43da-4bb6-9682-902abc086641/librarymanagement.png"
+links = [
+  { name = "github", url = "https://github.com/joaoalber/library-management-system" },
+  { name = "preview", url = "https://ucarecdn.com/868792f4-43da-4bb6-9682-902abc086641/librarymanagement.png" },
+]
+
+[[project]]
+name = "Simple Sinatra REST API"
+desc = "A lightweight Sinatra-based API for managing book data. This straightforward API is ideal for getting API applications in a quick manner using Sinatra"
+tags = []
+img = "https://ucarecdn.com/a72726a2-8e8d-4cb7-b486-ebc3c158bd9e/sinatraapi.png"
+links = [
+  { name = "github", url = "https://github.com/joaoalber/simple-sinatra-api" },
+  { name = "preview", url = "https://ucarecdn.com/a72726a2-8e8d-4cb7-b486-ebc3c158bd9e/sinatraapi.png" },
+]
+
+[[project]]
+name = "Open Source contributions"
+desc = "Contributions that I've made for the community during my career"
+tags = []
+img = ""
+links = [
+  { name = "Salesforce CDC API using Ruby", url = "https://github.com/RenoFi/salesforce-pub-sub-api-rb" },
+]

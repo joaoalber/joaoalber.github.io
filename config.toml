@@ -57,6 +57,7 @@ recent_more_text = "more »"
 sections = [
     { name = "posts", path = "/posts", is_external = false },
     { name = "about", path = "/about", is_external = false },
+    { name = "projects", path = "/projects", is_external = false },
     { name = "cv", path = "https://ucarecdn.com/ec653b3c-a00f-4818-aab2-3579711234d2/resumejoao1.png", is_external = true },
     # { name = "github", path = "https://github.com/joaoalber", is_external = true },
 ]
