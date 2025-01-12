@@ -39,7 +39,17 @@
     <section id="links">
       <div id="left">
         {% for section in config.extra.sections %}
-        <a href="{{ section.path }}" {% if section.is_external %}target="_blank" rel='noreferrer noopener'{% else %}class="instant"{% endif %}>{{ section.name }}</a>
+        {% set section_path = section.path %}
+        {% if current_path == "/pt-BR/" %}
+          {% set section_path = "/pt-BR" ~ section.path %}
+        {% endif %}
+
+        {% if section.name != "cv" %}
+          <a href="{{ section_path }}" {% if section.is_external %}target="_blank" rel='noreferrer noopener'{% else %}class="instant"{% endif %}>{% if current_path == "/pt-BR/" %}{{ section.pt_name }}{% else %}{{ section.name }}{% endif %}</a>
+        {% else %}
+          <a href="{{ section.path }}" {% if section.is_external %}target="_blank" rel='noreferrer noopener'{% else %}class="instant"{% endif %}>{% if current_path == "/pt-BR/" %}{{ section.pt_name }}{% else %}{{ section.name }}{% endif %}</a>
+        {% endif %}
+        
         {% endfor %}
       </div>
       <div id="right">

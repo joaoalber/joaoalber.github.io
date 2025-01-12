@@ -1,6 +1,6 @@
 +++
 title = "joaoalber | about"
-description = "A about page of ..."
+description = ""
 template = "prose.html"
 insert_anchor_links = "none"
 

@@ -19,5 +19,3 @@ Feel free to share your thoughts or suggestions, you can reach me out through my
 **Chill out with this playlist while reading**—*at a proper volume so you don't wake up the little one* :smile: (ensure to open the links in a new tab to keep the music player running while browsing)
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0ExPn?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-
