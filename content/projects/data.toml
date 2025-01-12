@@ -21,7 +21,7 @@ links = [
 
 [[project]]
 name = "Library Management System"
-desc = "A system designer for librarians and members to manage library resources efficiently. It provides a user-friendly interface and RESTful APIs for managing and borrowing books + administrative tasks"
+desc = "A system designed for librarians and members to manage library resources efficiently. It provides a user-friendly interface and RESTful APIs for managing and borrowing books + administrative tasks"
 tags = []
 img = "https://ucarecdn.com/868792f4-43da-4bb6-9682-902abc086641/librarymanagement.png"
 links = [

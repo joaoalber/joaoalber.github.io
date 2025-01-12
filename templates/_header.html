@@ -23,13 +23,17 @@
           {% elif not current_path is starting_with(section.path) %}
             {% set should_fold = true %}
           {% endif %}
-          <a class="instant {% if should_fold %}fold{% endif %}" href="{{ section.path }}">{{ section.name }}</a>
+          {% set section_path = section.path %}
+          {% if current_path is starting_with('/pt-BR') %}
+            {% set section_path = "/pt-BR" ~ section.path %}
+          {% endif %}
+          <a class="instant {% if should_fold %}fold{% endif %}" href="{{ section_path }}">{% if current_path is starting_with('/pt-BR') %}{{ section.pt_name }}{% else %}{{ section.name }}{% endif %}</a>
           {% if not loop.last %}<span class="wrap-separator fold">{{ config.extra.nav_wrapper_separator }}</span>{% endif %}
         {% endfor %}
         <span class="wrap right fold">{{ config.extra.nav_wrapper_right }}</span>
       {% else %}
         {% set section = config.extra.sections | first %}
-        <a class="instant" href="{{ section.path }}">{{ section.name }}</a>
+        <a class="instant" href="{{ section_path }}">{% if current_path is starting_with('/pt-BR') %}{{ section.pt_name }}{% else %}{{ section.name }}{% endif %}</a>
       {% endif %}
     </nav>
     <div id="btns">

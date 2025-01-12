@@ -5,6 +5,8 @@ template = 'home.html'
 lang = 'pt-BR'
 +++
 
+Clique aqui para acessar a [versão em inglês](https://joaoalber.github.io)
+
 <font size="5">Olá :wave:</font>
 
 Este é um espaço que criei para compartilhar conhecimentos da minha experiência como engenheiro de software. Fique à vontade e embarque em uma jornada pelo mundo da engenharia de software!

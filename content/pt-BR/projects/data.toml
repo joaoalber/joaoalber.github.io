@@ -1,0 +1,49 @@
+[[project]]
+name = "To-do List App - Integrado com IA"
+desc = "Uma aplicação desenvolvida para gerenciar tarefas diárias. Possui integração com a OpenAI para gerar automaticamente os títulos das tarefas a partir de descrições e usa Turbo Rails para uma experiência \"reload-less\""
+tags = []
+img = "https://ucarecdn.com/1252c9a3-7344-4aa4-a16f-e3df65c29065/todolistapp.png"
+links = [
+  { name = "github", url = "https://github.com/joaoalber/to-do-list-app" },
+  { name = "preview", url = "https://ucarecdn.com/1252c9a3-7344-4aa4-a16f-e3df65c29065/todolistapp.png" },
+]
+
+[[project]]
+name = "API de Inventário de Produtos (GraphQL)"
+desc = "Uma aplicação desenvolvida para gerenciar estoques de produtos por meio de uma interface GraphQL. Permite que os usuários executem operações CRUD em produtos, rastreiem alterações de quantidade e apliquem atualizações ou filtros em massa com base nos atributos do produto"
+tags = []
+img = "https://ucarecdn.com/d15723a3-4c09-40c7-b1e4-1e5192abde45/graphqlapiapp.png"
+links = [
+  { name = "github", url = "https://github.com/joaoalber/product-inventory-graphql-api" },
+  { name = "preview", url = "https://ucarecdn.com/d15723a3-4c09-40c7-b1e4-1e5192abde45/graphqlapiapp.png" },
+]
+
+
+[[project]]
+name = "Sistema de Gerenciamento de Biblioteca"
+desc = "Um sistema projetado para bibliotecários e membros gerenciarem os recursos da biblioteca com eficiência. Ele fornece uma interface amigável e APIs RESTful para gerenciamento e empréstimo de livros, além de tarefas administrativas"
+tags = []
+img = "https://ucarecdn.com/868792f4-43da-4bb6-9682-902abc086641/librarymanagement.png"
+links = [
+  { name = "github", url = "https://github.com/joaoalber/library-management-system" },
+  { name = "preview", url = "https://ucarecdn.com/868792f4-43da-4bb6-9682-902abc086641/librarymanagement.png" },
+]
+
+[[project]]
+name = "REST API Simples em Sinatra"
+desc = "Uma API leve baseada em Sinatra para gerenciar dados de livros. Esta API simples é ideal para criar aplicações de API de uma maneira rápida usando Sinatra"
+tags = []
+img = "https://ucarecdn.com/a72726a2-8e8d-4cb7-b486-ebc3c158bd9e/sinatraapi.png"
+links = [
+  { name = "github", url = "https://github.com/joaoalber/simple-sinatra-api" },
+  { name = "preview", url = "https://ucarecdn.com/a72726a2-8e8d-4cb7-b486-ebc3c158bd9e/sinatraapi.png" },
+]
+
+[[project]]
+name = "Contribuições Open Source"
+desc = "Contribuições que fiz para a comunidade durante minha carreira"
+tags = []
+img = ""
+links = [
+  { name = "Salesforce CDC API usando Ruby", url = "https://github.com/RenoFi/salesforce-pub-sub-api-rb" },
+]

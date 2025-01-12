@@ -1,8 +1,8 @@
 +++
-title = "joaoalber | projects"
+title = "joaoalber | projetos"
 description = ""
 template = "projects.html"
 
 [extra]
-lang = 'en'
+lang = 'pt-BR'
 +++
