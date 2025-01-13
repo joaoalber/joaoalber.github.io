@@ -15,7 +15,16 @@
   <main class="layout-list">
     <div class="title">
       <span># {{ term.name }}</span>
-      <a class="instant" href="{{ config.base_url ~ '/tags' }}">All Tags</a>
+
+      {% if current_path is starting_with('/pt-BR') %}
+        {% set tags_title = "Todas as Tags" %}
+        {% set tags_suffix = "/pt-BR/tags" %}
+      {% else %}
+        {% set tags_suffix = "/tags" %}
+        {% set tags_title = "All Tags" %}
+      {% endif %}
+
+      <a class="instant" href="{{ config.base_url ~ tags_suffix }}">{{ tags_title }}</a>
     </div>
     <div class="post-list">
       {% for post in term.pages %}

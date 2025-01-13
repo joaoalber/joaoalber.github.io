@@ -87,7 +87,14 @@
           <div id="tags">
             {% for tag in page.taxonomies.tags -%}
             {% set tag_slugify = tag | slugify -%}
-            <a class="instant" href="{{ config.base_url ~ '/tags/' ~ tag_slugify }}"><span>#</span>{{ tag }}</a>
+
+            {% if current_path is starting_with('/pt-BR') %}
+              {% set tags_suffix = "/pt-BR/tags/" ~ tag_slugify %}
+            {% else %}
+              {% set tags_suffix = tag_slugify %}
+            {% endif %}
+
+            <a class="instant" href="{{ config.base_url ~ tags_suffix }}"><span>#</span>{{ tag }}</a>
             {%- endfor %}
           </div>
           {% endif %}
