@@ -1,5 +1,6 @@
 +++
 title = "Como fazer seu próprio serviço de assinatura eletrônica 🖊️💻"
+description = "Como fazer seu próprio serviço de assinatura eletrônica 🖊️💻"
 date = 2023-11-29
 draft = false
 
