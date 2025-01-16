@@ -6,7 +6,7 @@ draft = false
 
 [taxonomies]
 categories = ["projects"]
-tags = ["ruby", "cloud", "project", "gcp", "sinatra"]
+tags = ["ruby", "cloud", "projeto", "gcp", "sinatra"]
 
 [extra]
 lang = "en"
