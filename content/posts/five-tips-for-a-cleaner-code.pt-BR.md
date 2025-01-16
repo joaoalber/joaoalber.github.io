@@ -1,6 +1,6 @@
 +++
 title = "5 Dicas para um Código mais Limpo"
-description = "5 Dicas para um Código mais Limpo"
+description = "Como melhorar suas habilidades no código"
 date = 2022-04-20
 draft = false
 

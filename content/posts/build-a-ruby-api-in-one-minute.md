@@ -1,6 +1,6 @@
 +++
 title = "Build a Ruby REST API in one minute ⚡"
-description = "Build a Ruby REST API in one minute ⚡"
+description = "You can build REST APIs in no time!"
 date = 2025-01-16
 draft = false
 

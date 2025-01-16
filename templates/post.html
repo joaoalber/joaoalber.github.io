@@ -17,6 +17,10 @@
   {% endif %}
   {% if desc %}
   <meta name="description" content="{{ desc }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description | safe }}">
+  <meta property="og:image" content="https://ucarecdn.com/d8d4a8d7-1d6a-4838-944f-a29339e12f4a/profile.jfif">
   {% endif %}
 {% endblock desc %}
 
