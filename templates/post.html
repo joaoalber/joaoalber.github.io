@@ -91,7 +91,7 @@
             {% if current_path is starting_with('/pt-BR') %}
               {% set tags_suffix = "/pt-BR/tags/" ~ tag_slugify %}
             {% else %}
-              {% set tags_suffix = tag_slugify %}
+              {% set tags_suffix = "/tags/" ~ tag_slugify %}
             {% endif %}
 
             <a class="instant" href="{{ config.base_url ~ tags_suffix }}"><span>#</span>{{ tag }}</a>
