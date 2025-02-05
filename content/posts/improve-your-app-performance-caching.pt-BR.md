@@ -5,7 +5,7 @@ date = 2025-02-05
 draft = false
 
 [taxonomies]
-categories = ["projects"]
+categories = ["performance"]
 tags = ["caching", "redis", "ruby", "performance"]
 
 [extra]
@@ -24,7 +24,7 @@ reaction = false
 Introdução
 ================
 
-Caching é a prática de armazenar resultados já calculados para evitar a necessidade de cálculos subsequentes, economizando tempo e recursos computacionais.
+Caching é a prática de armazenar resultados já calculados para evitar a necessidade de cálculos subsequentes, economizando tempo e recursos computacionais 🚀
 
 Existem várias formas de implementar caching, desde o uso de variáveis em memória até soluções mais robustas e confiáveis, como bancos de dados dedicados. Esses serviços gerenciam e armazenam os dados de maneira eficiente.
 
@@ -37,10 +37,10 @@ Configuração
 
 ### O que você vai precisar 📝
 
-*   **Linguagem de Programação (utilizaremos Ruby)**
+*   Linguagem de Programação (utilizaremos Ruby)
 &nbsp;
 
-*   **Docker (para rodar o servidor do Redis)** 🐋
+*   Docker (para rodar o servidor do Redis) 🐋
 &nbsp;
  
 Agora que você já tem o Docker configurado e instalado na sua máquina, vamos rodar o seguinte comando:
@@ -64,7 +64,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS       
 986bb85320f8   redis     "docker-entrypoint.s…"   11 seconds ago   Up 10 seconds   0.0.0.0:6379->6379/tcp, :::6379->6379/tcp   focused_jang
 ```
 
-Observe que a coluna STATUS deve conter a palavra "Up", indicando que o servidor está em funcionamento.
+Observe que a coluna `STATUS` deve conter a palavra `Up`, indicando que o servidor está em funcionamento.
 
 Criando o arquivo de caching
 ================
@@ -100,9 +100,9 @@ CACHE_KEY_ID = "my-cache"
 REDIS = Redis.new(host: "127.0.0.1", port: 6379)
 ```
 
-- Importamos a biblioteca `redis-rb`, que permite a comunicação com o Redis. Em Python, por exemplo, a biblioteca equivalente seria `redis-py`.
-- Definimos `CACHE_KEY_ID`, que será a chave usada para armazenar e recuperar os dados no cache. Essa chave funciona como um identificador único, semelhante a um ID em um banco de dados.
-- Criamos a instância do Redis, configurando o IP (`127.0.0.1`) e a porta (`6379`), que são os mesmos valores usados ao rodar o servidor no Docker.
+- Importamos a biblioteca `redis-rb`, que permite a comunicação com o Redis. Em Python, por exemplo, a biblioteca equivalente seria `redis-py`
+- Definimos `CACHE_KEY_ID`, que será a chave usada para armazenar e recuperar os dados no cache. Essa chave funciona como um identificador único, semelhante a um ID em um banco de dados
+- Criamos a instância do Redis, configurando o IP (`127.0.0.1`) e a porta (`6379`), que são os mesmos valores usados ao rodar o servidor no Docker
 
 #### Lógica de caching:
 
@@ -128,7 +128,7 @@ Aqui realizamos duas operações principais: leitura e escrita no cache.
 
 - Caso o valor não esteja armazenado (`nil`), buscamos a página HTML fazendo uma requisição `GET`
 - Em seguida, armazenamos o conteúdo no Redis com um tempo de expiração de 1 hora (`ex: 3600`)
-- Assim, novas requisições dentro desse período reutilizarão o valor salvo, evitando acessos desnecessários ao site externo.
+- Assim, novas requisições dentro desse período reutilizarão o valor salvo, evitando acessos desnecessários ao site externo
 
 3. Retorno do valor
 
@@ -138,8 +138,8 @@ Aqui realizamos duas operações principais: leitura e escrita no cache.
 
 No nosso exemplo, o uso de cache melhora significativamente o desempenho da aplicação, pois:
 
-✅ Evita requisições repetidas para serviços externos, reduzindo o tempo de resposta.
-✅ Garante que os dados sejam acessados mais rapidamente (experiência do usuário).
+- Evita requisições repetidas para serviços externos, reduzindo o tempo de resposta
+- Garante que os dados sejam acessados mais rapidamente (experiência do usuário)
 
 Essa estratégia permite que a aplicação responda de forma muito mais eficiente aos consumidores.
 
@@ -169,4 +169,3 @@ Se você tiver alguma dúvida, pergunta ou sugestão, não hesite em entrar em c
 > REDIS.set("novo-aprendizado-em-caching", this.post)
 
 Obrigado pela leitura!! 🍻
-
